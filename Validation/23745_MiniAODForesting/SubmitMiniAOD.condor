@@ -1,0 +1,11 @@
+Universe              = vanilla
+Executable            = /afs/cern.ch/user/c/chenyi/work/PhysicsWorkspace/HIJetReco2018/Validation/23745_MiniAODForesting/RunMiniAOD.sh
+should_transfer_files = NO
++JobFlavour           = "workday"
+
+Arguments = 
+Output    = Log/MiniAOD.out
+Error     = Log/MiniAOD.err
+Log       = Log/MiniAOD.log
+Queue
+

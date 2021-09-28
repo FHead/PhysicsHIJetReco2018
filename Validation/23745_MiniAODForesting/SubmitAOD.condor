@@ -1,0 +1,41 @@
+Universe              = vanilla
+Executable            = /afs/cern.ch/user/c/chenyi/work/PhysicsWorkspace/HIJetReco2018/Validation/23745_MiniAODForesting/RunAOD.sh
+should_transfer_files = NO
++JobFlavour           = "workday"
+
+Arguments = /store/himc/HINPbPbAutumn18DR/QCDPhoton_pThat-80_TuneCP5_HydjetDrumMB_5p02TeV_Pythia8/AODSIM/mva98_103X_upgrade2018_realistic_HI_v11-v1/70000/055B9735-F25A-EF42-9FD0-28DDE2827592.root HiForestAOD_0.root
+Output    = Log/AOD.0.out
+Error     = Log/AOD.0.err
+Log       = Log/AOD.0.log
+
+Arguments = /store/himc/HINPbPbAutumn18DR/QCDPhoton_pThat-80_TuneCP5_HydjetDrumMB_5p02TeV_Pythia8/AODSIM/mva98_103X_upgrade2018_realistic_HI_v11-v1/70000/0E491831-70AF-5E47-8575-DFD2FAD2A049.root HiForestAOD_1.root
+Output    = Log/AOD.1.out
+Error     = Log/AOD.1.err
+Log       = Log/AOD.1.log
+
+Arguments = /store/himc/HINPbPbAutumn18DR/QCDPhoton_pThat-80_TuneCP5_HydjetDrumMB_5p02TeV_Pythia8/AODSIM/mva98_103X_upgrade2018_realistic_HI_v11-v1/70000/3599B2DE-3025-754E-B2FC-040C20CB839A.root HiForestAOD_2.root
+Output    = Log/AOD.2.out
+Error     = Log/AOD.2.err
+Log       = Log/AOD.2.log
+
+Arguments = /store/himc/HINPbPbAutumn18DR/QCDPhoton_pThat-80_TuneCP5_HydjetDrumMB_5p02TeV_Pythia8/AODSIM/mva98_103X_upgrade2018_realistic_HI_v11-v1/70000/48E6DC29-D13B-2545-B0A2-08C4E12C6EAD.root HiForestAOD_3.root
+Output    = Log/AOD.3.out
+Error     = Log/AOD.3.err
+Log       = Log/AOD.3.log
+
+Arguments = /store/himc/HINPbPbAutumn18DR/QCDPhoton_pThat-80_TuneCP5_HydjetDrumMB_5p02TeV_Pythia8/AODSIM/mva98_103X_upgrade2018_realistic_HI_v11-v1/70000/4D616A24-6F55-FD4E-B140-ACD236E1171D.root HiForestAOD_4.root
+Output    = Log/AOD.4.out
+Error     = Log/AOD.4.err
+Log       = Log/AOD.4.log
+
+Arguments = /store/himc/HINPbPbAutumn18DR/QCDPhoton_pThat-80_TuneCP5_HydjetDrumMB_5p02TeV_Pythia8/AODSIM/mva98_103X_upgrade2018_realistic_HI_v11-v1/70000/760A94A9-CEA9-A74F-8A9B-567C49CDB8C6.root HiForestAOD_5.root
+Output    = Log/AOD.5.out
+Error     = Log/AOD.5.err
+Log       = Log/AOD.5.log
+
+Arguments = file:/eos/cms/store/group/phys_heavyions/chenyi/Samples//store/himc/HINPbPbAutumn18DR/QCDPhoton_pThat-80_TuneCP5_HydjetDrumMB_5p02TeV_Pythia8/AODSIM/mva98_103X_upgrade2018_realistic_HI_v11-v1/70000/760A94A9-CEA9-A74F-8A9B-567C49CDB8C6.root HiForestAOD_5.root
+Output    = Log/AOD.5.out
+Error     = Log/AOD.5.err
+Log       = Log/AOD.5.log
+Queue
+
